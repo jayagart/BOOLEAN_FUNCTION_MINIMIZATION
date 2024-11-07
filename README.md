@@ -62,13 +62,6 @@ Verify Results: Compare the output waveforms against the expected values to conf
 
 Conclusion: By using Quartus and Verilog programming, we can efficiently design, implement, and verify Boolean functions like F1 and F2. Quartus provides a platform for synthesizing the Verilog code into hardware, while simulation allows us to test and ensure that the functions behave as expected across all input combinations. This approach is essential for designing reliable digital systems.
 
-### Logic Diagram
-
-![Screenshot 2024-11-04 163706](https://github.com/user-attachments/assets/141beec2-4c38-4b9a-a438-012179c81f3c)
-
-![Screenshot 2024-11-04 164138](https://github.com/user-attachments/assets/f29d7c61-26ce-4d6a-961f-b03c3a14b0b7)
-
-
 ### Procedure
 
 1.	Type the program in Quartus software.
@@ -105,9 +98,14 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 ### assign F2=x6|x7|x8|x9|x10;
 ### endmodule
 
+### TRUTH TABLE
+![Screenshot 2024-11-04 163706](https://github.com/user-attachments/assets/141beec2-4c38-4b9a-a438-012179c81f3c)
+
+![Screenshot 2024-11-04 164138](https://github.com/user-attachments/assets/f29d7c61-26ce-4d6a-961f-b03c3a14b0b7)
 
 
-### RTL realization
+
+### RTL OUTPUT
 ![Screenshot 2024-11-04 103325](https://github.com/user-attachments/assets/77e6ba2b-0228-4c93-a09a-caf8260946d4)
 
 
