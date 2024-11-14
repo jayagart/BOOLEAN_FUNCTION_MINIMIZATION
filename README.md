@@ -1,9 +1,9 @@
 
-### NAME : Jayagar . T
-### REG NO: 24901219
+#### NAME : Jayagar . T
+#### REG NO: 24901219
 ## EXPERIMENT 2 : BOOLEAN FUNCTION IMPLEMENTATION
 
-### AIM
+## AIM
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -11,13 +11,13 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-### Equipment Required
+## Equipment Required
 
 Hardware – PCs, Cyclone II , USB flasher
 
-### Software – Quartus prime
+ Software – Quartus prime
 
- ### Theory
+ ## Theory
  Implementing Boolean functions in Quartus using Verilog programming involves a systematic approach to design, synthesize, and verify digital logic functions. Here, we’ll cover the theoretical background and implementation of Boolean functions using Verilog, focusing on the functions:
 
 𝐹1=𝐴′𝐵′𝐶′𝐷′+𝐴𝐶′𝐷′+𝐵′𝐶𝐷′+𝐴′𝐵𝐶𝐷+𝐵𝐶′𝐷 𝐹2=𝑥𝑦′𝑧+𝑥′𝑦′𝑧+𝑤′𝑥𝑦+𝑤𝑥′𝑦+𝑤𝑥𝑦
@@ -62,7 +62,7 @@ Verify Results: Compare the output waveforms against the expected values to conf
 
 Conclusion: By using Quartus and Verilog programming, we can efficiently design, implement, and verify Boolean functions like F1 and F2. Quartus provides a platform for synthesizing the Verilog code into hardware, while simulation allows us to test and ensure that the functions behave as expected across all input combinations. This approach is essential for designing reliable digital systems.
 
-### Procedure
+## Procedure
 
 1.	Type the program in Quartus software.
 
@@ -75,47 +75,47 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 5.	For different input combinations generate the timing diagram.
 
 
-### Program
+## Program
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-### Developed by: RegisterNumber:*/
-### module booleanfunction(a,b,c,d,F1,F2,w,x,y,z);
-### input a,b,c,d,w,x,y,z;
-### output F1,F2;
-### wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-### assign x1=(~a)&(~b)&(~c)&(~d);
-### assign x2=(a)&(~c)&(~d);
-### assign x3=(~b)&(~c)&(~d);
-### assign x4=(~a)&(b)&(c)&(d);
-### assign x5=(b)&(~c)&(d);
-### assign x6=(x)&(~y)&(z);
-### assign x7=(~x)&(~y)&(z);
-### assign x8=(~w)&(x)&(y);
-### assign x9=(w)&(~x)&(y);
-### assign x10=(w)&(x)&(y);
-### assign F1=x1|x2|x3|x4|x5;
-### assign F2=x6|x7|x8|x9|x10;
-### endmodule
+#### Developed by: RegisterNumber:*/
+#### module booleanfunction(a,b,c,d,F1,F2,w,x,y,z);
+#### input a,b,c,d,w,x,y,z;
+#### output F1,F2;
+#### wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+#### assign x1=(~a)&(~b)&(~c)&(~d);
+#### assign x2=(a)&(~c)&(~d);
+#### assign x3=(~b)&(~c)&(~d);
+#### assign x4=(~a)&(b)&(c)&(d);
+#### assign x5=(b)&(~c)&(d);
+#### assign x6=(x)&(~y)&(z);
+#### assign x7=(~x)&(~y)&(z);
+#### assign x8=(~w)&(x)&(y);
+#### assign x9=(w)&(~x)&(y);
+#### assign x10=(w)&(x)&(y);
+#### assign F1=x1|x2|x3|x4|x5;
+#### assign F2=x6|x7|x8|x9|x10;
+#### endmodule
 
-### TRUTH TABLE
+## TRUTH TABLE
 ![Screenshot 2024-11-04 163706](https://github.com/user-attachments/assets/141beec2-4c38-4b9a-a438-012179c81f3c)
 
 ![Screenshot 2024-11-04 164138](https://github.com/user-attachments/assets/f29d7c61-26ce-4d6a-961f-b03c3a14b0b7)
 
 
 
-### RTL OUTPUT
+## RTL OUTPUT
 ![Screenshot 2024-11-04 103325](https://github.com/user-attachments/assets/77e6ba2b-0228-4c93-a09a-caf8260946d4)
 
 
 
-### WAVWFOEM OUTPUT
+## WAVWFOEM OUTPUT
 
 ![Screenshot 2024-11-04 112947](https://github.com/user-attachments/assets/2c250a2d-cc0e-45c8-84e7-c66d5d969790)
 
 
-### Result:
+## Result:
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
