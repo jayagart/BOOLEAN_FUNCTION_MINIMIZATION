@@ -110,7 +110,7 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 
 
 
-# WAVWFOEM OUTPUT
+# WAVEFORM OUTPUT
 
 ![Screenshot 2024-11-04 112947](https://github.com/user-attachments/assets/2c250a2d-cc0e-45c8-84e7-c66d5d969790)
 
