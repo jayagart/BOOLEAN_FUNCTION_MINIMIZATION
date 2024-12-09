@@ -77,7 +77,7 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 
 # Program
 
-```
+
 #### Developed by: RegisterNumber:*/
 #### module booleanfunction(a,b,c,d,F1,F2,w,x,y,z);
 #### input a,b,c,d,w,x,y,z;
@@ -96,7 +96,7 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 #### assign F1=x1|x2|x3|x4|x5;
 #### assign F2=x6|x7|x8|x9|x10;
 #### endmodule
-```
+
 
 # TRUTH TABLE
 ![Screenshot 2024-11-04 163706](https://github.com/user-attachments/assets/141beec2-4c38-4b9a-a438-012179c81f3c)
