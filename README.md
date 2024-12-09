@@ -77,7 +77,6 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 
 # Program
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 ```
 #### Developed by: RegisterNumber:*/
 #### module booleanfunction(a,b,c,d,F1,F2,w,x,y,z);
