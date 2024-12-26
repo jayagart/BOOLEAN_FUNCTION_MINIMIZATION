@@ -117,5 +117,5 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 
 ## Result:
 
- The given logic functions are implemented using and their operations are verified using Verilog programming.
+ Thus The given logic functions are implemented using and their operations are verified using Verilog programming.
 
